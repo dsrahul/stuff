@@ -92,7 +92,6 @@ public class CountriesTest {
         assertThat(groupedContinents.get(SUB_SAHARAN_AFRICA), is(67632178));
         assertThat(groupedContinents.get(NORTHERN_AFRICA), is(33241259));
         assertThat(groupedContinents.get(OCEANIA), is(60422));
-        System.out.println(groupedContinents);
     }
 
     private static Reader getFile() {
